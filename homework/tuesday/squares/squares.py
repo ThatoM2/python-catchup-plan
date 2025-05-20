@@ -1,2 +1,4 @@
 def squares(n):
-    pass
+    square_value = n * n
+    return square_value
+print(squares(2))
