@@ -5,14 +5,24 @@ def main():
     print(f"Leave ${tip:.2f}")
 
 
+
+
 def dollars_to_float(d):
-    # TODO
-    pass
+    d = d.lstrip("$")
+    d = float(d)
+    return d
+
 
 
 def percent_to_float(p):
-    # TOD0
-    pass
+    p = p.rstrip("%")
+    p = float(p)
+    p = p / 100
+    return p
+
+
 
 
 main()
+
+
